@@ -1,0 +1,24 @@
+ .hat{
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    margin:20px;
+ }
+ .conteiner{
+    height: 300px;
+    background-color: aliceblue;
+    display:flex;
+    justify-content: space-between;
+    padding: 1em;
+    
+ }
+ #id{
+    margin: 20px;
+ }
+
+ 
+ 
+ 
