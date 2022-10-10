@@ -1,0 +1,43 @@
+body {
+    height: 2000px;
+}
+
+.static {
+    position: static;
+    border: 1px solid black;
+    background-color: rgb(194, 75, 99);
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: 1px solid black;
+    background-color: rgb(194, 75, 99);
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid black;
+    background-color: rgb(158, 60, 79);
+    width: 300px;
+}
+.absolute{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    top: 30px;
+    right: 0px;
+}
+.container{
+   /* position: relative;*/
+    border: 1px solid black;
+}
+.Sticky{
+    position: sticky;
+    top: 50px;
+
+}

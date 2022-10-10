@@ -1,0 +1,48 @@
+.avd {
+    text-align: center;
+}
+
+.Sticky {
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+body {
+    height: 1500px;
+}
+
+.container {
+    border: 1px solid black;
+    background-color: gray;
+    object-fit:cover;
+    position: relative;
+}
+
+.img {
+    text-align: center;
+}
+
+
+.absolute {
+    position: absolute;
+    top:0px;
+    left: 0;
+    background-color: lightsalmon;
+
+}
+
+.end {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: azure;
+
+}
+img{
+    width: 100%;
+}
