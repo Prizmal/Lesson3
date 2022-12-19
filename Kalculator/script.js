@@ -170,7 +170,8 @@ let buttonsObj = [
     },
     {
         text: "-",
-        background: "grey"
+        background: "grey",
+        action: arithmeticOperation
 
     },
     {
@@ -262,12 +263,13 @@ function total() {
         operation = ""
         firstNumber = ""
     }
-    // isOperation = true
-    // if (operation == "-") {
-    //     chislo.innerHTML = Number(firstNumber) - Number(chislo.innerHTML)
-    //     operation = ""
-    //     firstNumber = ""
-    // }
-    // isOperation = true
+    
+    if (operation == "-") {
+        chislo.innerHTML = Number(firstNumber) - Number(chislo.innerHTML)
+        operation = ""
+        firstNumber = ""
+        
+    }
+    
     
 }

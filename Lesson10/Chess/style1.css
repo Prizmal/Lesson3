@@ -1,0 +1,16 @@
+
+#container {
+    width: 400px;
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    height: 400px;
+    
+} 
+#container div{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

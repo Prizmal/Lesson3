@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+input, button{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 2em;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+button{
+    background-color:rgb(119, 0, 255);
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+#redButton{
+    background: red;
+}
+button:hover{
+    opacity: 1;
+
+}

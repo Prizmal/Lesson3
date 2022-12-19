@@ -1,0 +1,21 @@
+div{
+    width: 300px;
+    height: 100px;
+    background-color: coral;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+#translate{
+transform: translate(10px,10px);
+
+}
+#rotate{
+    transform: rotate(20deg);
+}
+#scale{
+    transform: scale(3,1.1);
+}
+#skewX{
+    transform: skew(45DEG);
+}
