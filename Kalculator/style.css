@@ -1,7 +1,7 @@
  #osnova {
     height: 600px;
     width: 300px;
-    background-color: #c0c0c0;
+    background-color: white;
     border-radius: 20px;
 
 }
@@ -11,13 +11,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+   
 }
 
 #osnova>#screen {
     height: 100px;
     width: 300px;
-    border: 1px solid black;
-    box-sizing: border-box;
+    border: 1px solid black;    
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
@@ -26,17 +26,10 @@ body {
 #buttons_field {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%  ;
     height: 500px;
     width: 300px;
-    border: 1px solid black;
     box-sizing: border-box;
-    
-    
-    /* border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px; */
-
-
  }
 
 
@@ -48,13 +41,11 @@ body {
 }
 .knopki{
     height: 81.2px;
-    width: 73px;
-    
+    width: 77px;
+    border: 1px solid black;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     
-
-
 }
